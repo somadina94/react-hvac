@@ -1,0 +1,49 @@
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #343a40;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 2.5rem 2rem;
+    transition: all 500ms;
+}
+
+.nav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.nav .active {
+    background-color: blue;
+    color: white;
+}
+
+@media (max-width: 50em) {
+    .nav a {
+        font-size: 1.4rem;
+        padding: 2.78rem 1rem;
+    }
+}
+
+@media (max-width: 37.5em) {
+    .nav {
+        position: absolute;
+        flex-direction: column;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        border-bottom: 4px solid #343a40;
+    }
+
+    .nav a {
+        font-size: 1.4rem;
+        padding: 2rem 10rem;
+    }
+}

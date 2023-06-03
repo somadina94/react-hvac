@@ -1,0 +1,21 @@
+.why {
+    margin: auto;
+    padding: 2rem;
+    margin-bottom: 12rem;
+}
+
+.why h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.why p {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
